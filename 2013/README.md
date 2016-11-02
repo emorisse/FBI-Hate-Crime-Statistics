@@ -39,3 +39,10 @@ The data is encoded as UTF-8 text in comma-separated format. The columns in the 
 * Q3 (signed int64)
 * Q4 (signed int64)
 * Population (string)
+
+###The Formats Currently Include
+
+* CSV()
+Implemented via [Text::CSV](search.cpan.org/~makamaka/Text-CSV-1.33/lib/Text/CSV.pm) using the default values with binary enabled. The ability to modify the formatter is planned and will likely utilize stash keys.
+
+
